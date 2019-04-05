@@ -1,0 +1,19 @@
+{
+  "name": "react1",
+  "version": "1.0.0",
+  "description": "3-1 \"git init\" git init git add README.md git commit -m \"git init\" git remote add origin git@github.com:sumakokima2/react.git git push -u origin master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumakokima2/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumakokima2/react/issues"
+  },
+  "homepage": "https://github.com/sumakokima2/react#readme"
+}
