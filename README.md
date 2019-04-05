@@ -13,3 +13,6 @@ package.jsonの追加
 
 3-2 "npm install  webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev"
 webpackの追加。(前回コミット時に実行済み)
+
+3-2 "npm install  @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/register --save-dev"
+babelの追加
