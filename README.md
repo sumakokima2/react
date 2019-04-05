@@ -19,3 +19,6 @@ babelの追加
 
 3-2 "npm install --save-dev eslint eslint-plugin-react"
 eslintの追加
+
+3-2 "npm install --save-dev prettier"
+pretterの追加
