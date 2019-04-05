@@ -16,3 +16,6 @@ webpackの追加。(前回コミット時に実行済み)
 
 3-2 "npm install  @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/register --save-dev"
 babelの追加
+
+3-2 "npm install --save-dev eslint eslint-plugin-react"
+eslintの追加
