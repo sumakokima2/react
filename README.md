@@ -22,3 +22,6 @@ eslintの追加
 
 3-2 "npm install --save-dev prettier"
 pretterの追加
+
+!! "npm install react react-dom react-hot-loader"
+reactの追加(--save-devはつけない)
