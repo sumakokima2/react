@@ -10,8 +10,8 @@ module.exports =
  (env, args) => {
     return {
     mode: 'development',
-    entry: src + '/index.jsx', //ここを変える index.jsx: 3-1,3-2
-  
+    entry: src + '/props.jsx', //ここを変える index.jsx: 3-1,3-2
+  //props.jsx: 3-4 Props
     output: {
       path: dist,
       filename: 'bundle.js'
