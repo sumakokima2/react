@@ -7,16 +7,27 @@ class App extends React.Component {
     // props	コンポーネント作成時	NO
     // state	コンポーネント作成後	YES    
 
-  constructor(props) {
-    super(props);
-    this.state = {id: 1, text: "test"};
-  }
+    constructor(props) {
+        super(props);
+        this.state = {id: 2, text: "state"};
+    }
+    
+    componentDidMount() {
+        // componentのアウトプットがされたときに実行される
+        console.log("didmount: "+this.state.id);
+    }
 
-  render () {
+ 
+
+    //componentWillMount(), componentWillReceiveProps() は非推奨。getDerivedStateFromPropsが推奨
+
+    render () {
     return <p> Hello React!! 
-      id : {this.state.id} , 
-      text : {this.state.text}</p>;
+      propsId : {this.props.id} ,
+      statesId : {this.state.id} , 
+      propsText : {this.props.text},
+      statesText : {this.state.text}</p>;
   }
 }
 
-render(<App />, document.getElementById('app'));
+render(<App  id={"1"} text={"props"}/>, document.getElementById('app'));
