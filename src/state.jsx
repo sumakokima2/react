@@ -17,7 +17,17 @@ class App extends React.Component {
         console.log("didmount: "+this.state.id);
     }
 
- 
+    static getDerivedStateFromProps(prevProps, prevState) {
+            console.log(prevProps);
+            console.log(prevState);
+        if (prevProps.id !== prevState.id) {
+            return {
+                //this.setStateのように働く
+                id: 3
+            };
+        }
+        
+    }
 
     //componentWillMount(), componentWillReceiveProps() は非推奨。getDerivedStateFromPropsが推奨
 
